@@ -1,0 +1,7 @@
+export MasterPage from './MasterPage'
+export IndexPage from './IndexPage'
+export LoginPage from './LoginPage'
+export RegistrationPage from './RegistrationPage'
+export AccountPage from './AccountPage'
+export CallPage from './CallPage'
+export StreamPage from './StreamPage'
