@@ -26,7 +26,7 @@ export default class is extends React.Component {
 
   render () {
     return (
-      <DocumentTitle title='Chatroue'>
+      <DocumentTitle title='talkingheads'>
         <div className='MasterPage'>
           <Header />
           { React.cloneElement(this.props.children, { room: this.state.room, setRoomInMasterPage: this.setRoomInMasterPage }) }

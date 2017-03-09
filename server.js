@@ -114,9 +114,9 @@ io.on('connect', function (socket) {
 
   socket.on('message', function (message) {
     log('Client said: ', message)
-    // socket.broadcast.emit('message', message)
+    socket.broadcast.emit('message', message)
     // for a real app, would be room-only (not broadcast)
-    socket.broadcast.to(room).emit('message', message)
+    // socket.broadcast.to(room).emit('message', message)
   })
 
   socket.on('create or join', function (room) {

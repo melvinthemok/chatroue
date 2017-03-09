@@ -30,9 +30,7 @@ export default class StreamPage extends React.Component {
 
 // ///////////////////////////////////////////
 
-    var room = 'foo'
-// Could prompt for room name:
-// room = prompt('Enter room name:');
+    var room = this.props.room
 
     var socket = io.connect()
 
