@@ -4,7 +4,7 @@ Video conferencing app for 2. First attempt toying with webRTC.
 
 ## Getting Started
 
-The app is available [here](link).
+The app is available [here](https://react-talkingheads.herokuapp.com/).
 
 ### Prerequisites
 
@@ -21,7 +21,7 @@ After logging in, chat with each other after keying in the same chat name.
 
 ## Live Version
 
-[Here](link)
+[Here](https://react-talkingheads.herokuapp.com/)
 
 ## Built With
 
