@@ -4,20 +4,23 @@
   "description": "This is the starter code for WDI projects. Please update this README file with information specific to your project. Replace this paragraph for instance, with a short description of your project. Then update the sections below. Refer to your project specificaion for instructions on how to submit your projects.",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server.js",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "^7.4.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/melvinthemok/oathcast.git"
+    "url": "git+https://github.com/melvinthemok/talkingheads.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/melvinthemok/oathcast/issues"
+    "url": "https://github.com/melvinthemok/talkingheads/issues"
   },
-  "homepage": "https://github.com/melvinthemok/oathcast#readme",
+  "homepage": "https://github.com/melvinthemok/talkingheads#readme",
   "dependencies": {
     "babel-core": "^6.23.1",
     "babel-loader": "^6.4.0",
